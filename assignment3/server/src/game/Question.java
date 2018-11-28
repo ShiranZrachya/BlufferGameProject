@@ -1,0 +1,26 @@
+package game;
+
+public class Question {
+	private String question;
+    private String answer;
+   
+    
+    public Question(String question,String Answer){
+            this.answer = Answer;
+            this.question = question;
+    }
+    public String getAnswer() {
+            return answer;
+    }
+    public String getQuestion() {
+            return question;
+    }
+   
+
+}
+
+
+
+
+
+
